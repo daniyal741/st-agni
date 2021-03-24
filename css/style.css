@@ -1,0 +1,1523 @@
+@import url('../fonts/MinionPro-Regular\ \(1\).otf');
+@import url('../fonts/AkzidGroBQLig.otf');
+@import url('../fonts/AkzidenzGrotesk-Regular.otf');
+@import url('../fonts/Arial\ Bold.ttf');
+@import url('../fonts/AdobeFnt22.lst');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+
+
+}
+@media screen and (max-width:1640px){
+
+    html,body{
+
+        padding: 0;
+        margin: 0;
+        -webkit-font-smoothing: antialiased;
+        background-color: #FFFFFF;
+        color: #262626;
+
+    }
+    header{
+
+        padding: 3em 4em;   
+        display: flex;
+
+
+    }
+    .logo{
+
+        display: flex;
+        padding: 10px;
+        width: 30%;
+        align-items: center;
+
+    
+
+
+    }
+    .logo a{
+
+    }
+    .logo img{
+
+
+        width: 150px;
+
+    }
+    header .left-menu{
+
+        width: 40%;
+    }
+    ul{
+        list-style: none;    display: inline-block;    width: 25%;
+
+    }
+    ul li{
+
+        padding: 5px 0px;
+
+    }
+    ul li {
+
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        
+    }
+    ul li a{
+
+        text-decoration: none;
+        color: black;
+        font-family: sans-serif;
+
+    }
+    .right-menu{
+
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        font-family: sans-serif;
+        letter-spacing: 0.05em;
+        font-size: 12px;
+        padding: 5px 0;
+
+    }
+    .right-menu a{
+
+        text-decoration: none;
+        color: black;
+        padding: 0 15px;
+    
+    }
+    .right-menu input[type="search"]
+    {
+
+        margin: 0 10px;
+        border: none;
+        border-bottom: 1px solid black;
+        
+    }
+    .right-menu label{
+
+        padding: 0 15px;
+        font-size: 12px;
+
+
+    }
+    .mb-left-menu{
+        display: none;
+    }
+    .mb-right-menu{
+        display: none;
+    }
+    .hero-bg{
+
+        display: flex;
+        flex-flow: column nowrap;
+        width: 90%;
+        font-family: sans-serif;
+
+        margin: auto;
+    }
+
+    .image_container{
+
+        display: flex;
+        flex-flow: row wrap;
+        margin: auto;
+    
+
+
+    }
+    .left{
+
+        
+        background-image: url('../images/indieground_foldedpaper_textures_main_02.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60%;
+        height: min-content;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        /* outline: 1px solid black ; */
+
+
+    }
+
+    .left img{
+
+        width: 100%;
+        height:100%;
+        margin: 0 0 -30% 0;
+        object-fit: cover;
+        /* object-position: 0% 50%; */
+        opacity: 0.75;
+        /* outline: 1px solid black ; */
+        
+
+    }
+
+    .right{
+
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        width: 40%;
+        font-family: 'Akzidenz-Grotesk BQLight', sans-serif;
+
+
+        
+
+    }
+    .right .first-para{
+
+        padding: 0 1em;
+        text-align: justify;
+        width: 60%;
+        font-size: 13px;
+    }
+    .right .heading1{
+
+        font-size: 9em;
+        text-transform: uppercase;
+        font-family: 'Minion Pro Display';
+        letter-spacing: 1px; 
+        margin-top: 1.8em;
+        margin-left: -1.5em;
+        z-index: 100;
+    }
+    [contenteditable] {
+        outline: 0px solid transparent;
+    }
+
+    .shop-btn{
+
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        display: flex;
+        width: 100%;
+        justify-content: left;
+        align-items: center;
+        margin: 1.5em 0 0 0;
+    }
+    
+    
+    .shop-btn a{
+
+        display: block;
+        text-decoration: none;
+        padding: 10px 5px;
+        color: black;
+    
+    }
+
+    
+    section .pic-info{
+
+        text-align: justify;
+        padding: 0.8em 0;
+        font-size: 11px;
+        display: flex;
+        flex-flow: row nowrap;
+        width: 50%;
+        justify-content: space-between;
+        font-family: sans-serif,'Akzidenz-Grotesk BQLight';
+    }
+
+    .pic-info div:nth-child(2)
+    {
+
+        width: 50%;
+        padding: 0.25em 0;
+
+    }
+    .pic-info p{
+
+        padding: 0.30em 0 0 0;
+        text-align: left;
+
+    }
+
+    /* Heels */
+
+    .heels{
+
+        display: flex;
+        padding: 1em 0;
+        justify-content: space-between;
+    }
+
+    .heel-part-1 ,.heel-part-2{
+
+        width: 49%;  display: flex;
+        flex-flow: row nowrap;
+        height: min-content;
+    }
+    .heel-part-1{
+        display: flex;
+        flex-flow: row nowrap;
+        height: min-content;
+        justify-content: space-around;
+    }
+    .heels-info{
+
+        width: 30%;
+        writing-mode: vertical-rl;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: flex-start;
+        align-self: flex-end;
+        text-align: left;
+        padding-right: 5px;
+    }
+    .heels-info p{
+
+        height: fit-content;
+        font-size: 11px;
+        font-family: sans-serif,'Akzidenz-Grotesk BQLight';
+        letter-spacing: 0.8px;
+        line-height: 14px;
+
+    }
+    .heel-1{
+
+        width: 80%;
+        height: max-content;
+        background-image: url('../images/indieground_foldedpaper_textures_main_01.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: min-content;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+
+    .heel-1 img{
+
+        width: 100%;
+        object-fit: cover;
+        margin: -20% 0 -20% 0;
+        opacity: 0.75;
+
+    }
+
+    .heel-2{
+
+        width: 100%;
+        height: max-content;
+        background-image: url('../images/indieground_foldedpaper_textures_main_01.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: min-content;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+    }
+
+    .heel-2 img{
+
+        width: 100%;
+        object-fit: cover;
+        margin: -30% 0 -20% 0;
+        opacity: 0.75;
+
+    }
+        /* Sofa Section */
+
+        .sofa{
+
+            display: flex;
+            flex-flow: row nowrap;
+            width: 100%;
+            justify-content: space-between;
+            margin-top: 2em;
+
+        }
+
+        .sofa-part-1{
+
+            width: 50%;
+
+        }
+        .sofa-1{
+            display: flex;
+            justify-content: left;
+        
+        }
+        .sofa-1 img{
+
+            width: 90%;
+            opacity: 0.75;
+
+        }
+
+        .sofa-part-2{
+
+            width: 45%;
+            display: flex;
+            justify-content: flex-end;
+            
+        }
+        .sofa-2{
+            
+            display: flex;
+            justify-content: left;
+            align-items: flex-end;
+            width: 70%;
+
+        }
+        .sofa-2 img{
+
+            width: 100%;
+            opacity: 0.75;
+            object-fit: cover;
+        }
+
+        .sofa-info{
+
+            width: 30%;
+            writing-mode: vertical-lr;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+            align-self: flex-end;
+            text-align: left;
+            padding-left: 5px;
+        }
+        .sofa-info p{
+    
+            height: fit-content;
+            font-size: 11px;
+            font-family: sans-serif,'Akzidenz-Grotesk BQLight';
+            letter-spacing: 0.8px;
+            line-height: 14px;
+    
+        }
+
+        /* THE JOURNAL */
+
+        .journal{
+
+            display: flex;
+            padding: 4em 0;
+            flex-flow: column nowrap;
+            width: 90%;
+            font-family: sans-serif;
+            margin: auto;
+        }
+    
+        .journal_container{
+    
+            display: flex;
+            flex-flow: row-reverse wrap;
+            margin: auto;
+        
+    
+    
+        }
+        .journal-right{
+    
+            
+            background-image: url('../images/indieground_foldedpaper_textures_main_02.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 60%;
+            height: min-content;
+            overflow: hidden;
+            padding: 0;
+            margin: 0;
+            /* outline: 1px solid black ; */
+    
+    
+        }
+    
+        .journal-right img{
+    
+            width: 100%;
+            height:100%;
+            margin: 0 0 -30% 0;
+            object-fit: cover;
+            /* object-position: 0% 50%; */
+            opacity: 0.65;
+            /* outline: 1px solid black ; */
+            
+    
+        }
+    
+        .journal-left{
+    
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-between;
+            align-items: flex-end;
+            width: 40%;
+            font-family: 'Akzidenz-Grotesk BQLight', sans-serif;
+    
+        }
+        .journal-left .first-para{
+    
+            padding: 0em 1em;
+            text-align: justify;
+            width: 80%;
+            font-size: 13px;
+        }
+        .journal-left .first-para p:nth-child(1){
+
+            font-size: 16px;
+            padding: 1em 0;
+            border-bottom: 1px solid black;
+        }
+        .journal-left .first-para p:nth-child(2){
+
+            padding: 1em 0 0  0;
+
+
+        }
+        .journal-left .heading1{
+    
+            font-size: 5em;
+            text-transform: uppercase;
+            font-family: 'Minion Pro Display';
+            letter-spacing: 1px; 
+            top: 1em;
+            position: relative;
+            right: -2em;
+            z-index: 100;
+        }
+        [contenteditable] {
+            outline: 0px solid transparent;
+        }
+    
+        .shop-btn{
+    
+            border-top: 1px solid black;
+            border-bottom: 1px solid black;
+            display: flex;
+            width: 100%;
+            justify-content: left;
+            align-items: center;
+            margin: 1.5em 0 0 0;
+        }
+        
+        
+        .shop-btn a{
+    
+            display: block;
+            text-decoration: none;
+            padding: 10px 5px;
+            color: black;
+        
+        }
+    
+        
+        .journal .pic-info{
+    
+            text-align: justify;
+            padding: 0.8em 0;
+            font-size: 11px;
+            display: flex;
+            flex-flow: row nowrap;
+            width: 100%;
+            justify-content: flex-end;
+            font-family: sans-serif,'Akzidenz-Grotesk BQLight';
+        }
+    
+        .pic-info div:nth-child(2)
+        {
+    
+            width: 50%;
+            padding: 0.25em 0;
+    
+        }
+        .journal .pic-info p{
+    
+            padding: 0.30em 0 0 0;
+            text-align: right;
+        }
+    
+        /* Section 05 */
+
+        .sale{
+
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        
+        .box-1,.box-2{
+
+            width: 50%;
+        }
+        .box-1{
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-self: center;
+
+        }
+        
+        .box-1 .img-1{
+
+            width: 70%;
+           
+
+        }
+        .box-1 .img-1 img{
+        
+        
+            width: 100%;
+            opacity: 0.75;
+
+        }
+
+        .img-1-info{
+            writing-mode: vertical-rl;
+            display: flex;
+            flex-flow: column;
+            align-self: flex-end;
+            font-size: 11px;
+            font-family: sans-serif,'Akzidenz-Grotesk BQLight';
+
+
+        }
+        .box-2{
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: center;
+            align-self: center;
+        }
+        .box-container{
+
+         width: 20%;  
+         display: flex;
+         flex-flow: column nowrap; 
+         align-items: flex-end;
+         justify-content: space-between;
+
+        }
+        .box-container .img-2-info{
+
+            writing-mode: vertical-rl;
+            display: flex;
+            flex-flow: column;
+            font-size: 14px;        
+            font-family: sans-serif,'Akzidenz-Grotesk BQLight';
+
+
+        }
+        .box-container .shop-btn{
+            writing-mode: vertical-lr;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items:flex-end;
+            justify-content: center;
+            border: none;
+            font-size: 14px;
+
+
+        }
+       
+        .box-2 .img-2{
+
+            width: 90%;
+
+        }
+        .box-2 .img-2 img{
+        
+        
+            width: 100%;
+            opacity: 0.75;
+
+
+        }
+
+        /* Footer */
+
+        footer{
+
+            padding: 4em 0;
+
+        }
+
+        .ft-menu{
+
+            display: flex;
+            flex-flow: row wrap;
+            padding: 0 1em;
+        }
+        .ft-menu .logo{
+
+            display: flex;
+            flex-flow: column wrap;
+            width: 20%;
+            width: min-content;
+            padding: 0em 2em;
+        }
+        .logo p{
+            padding: 0.8em 0;
+            font-family: sans-serif,'Akzidenz-Grotesk BQLight';
+
+        }
+        .ft-menu .left-menu{
+
+            width: 50%;
+            margin: 0 auto;
+
+
+        }
+        .ft-menu ul{
+
+            width: 24%;
+            
+        }
+        .ft-menu .subscribe{
+
+            width: 30%;
+        }
+        .ft-menu .subscribe form > input,label{
+
+            font-family: sans-serif;
+            font-size: 16px;
+            
+        }
+        .ft-menu .subscribe a{
+
+            vertical-align: middle;
+            text-decoration: none;
+            color: black;
+        }
+        .ft-menu .subscribe [type='email']{
+
+            border: none;
+            border-bottom: 2px solid black;
+            margin: 0 0.5em;
+            padding-bottom: 2px;
+        }
+        .ft-menu .subscribe [type='email']::placeholder{
+        
+            font-family: sans-serif,'Akzidenz-Grotesk BQLight';
+            color: gray;
+            font-size: 14px;
+        
+        }
+        .ft-menu .subscribe [type='submit']{
+
+            border: none;
+            font-size: 24px;
+            background-color: transparent;
+        }
+        .ft-menu .subscribe p{
+
+            font-family: sans-serif,'Akzidenz-Grotesk BQLight';
+            padding: 1em 0;
+            font-size: 15px;
+        }
+        .copy{
+
+            padding: 3em 0;
+            width: 100%;
+            text-align: center;
+        }
+        .copy p{
+
+            padding: 0.5em 0;
+            font-family: sans-serif,'Akzidenz-Grotesk BQLight';
+
+        }
+        .copy p span{
+
+            display: none;
+        }
+
+
+}
+@media screen and (max-width: 1440px){
+
+    .right .heading1{
+    
+        font-size: 7.0em;
+    }
+}
+@media screen and (max-width: 1220px){
+
+    .right .heading1{
+    
+        font-size: 6em;
+        margin-top: 1.6em;
+        margin-left: -1.1em;
+
+    }
+    .right .first-para{
+
+        width: 80%;
+    }
+  
+}
+/* For Laptops */
+@media screen and (max-width: 1024px){
+
+    header{
+
+        padding: 3em 2.3em;
+    }
+    .logo{
+
+        width: 30%;
+
+    }
+    .left-menu{
+
+        width: 45%;
+
+    }
+    .left-menu ul{
+    
+        width: 30%;
+    
+    }
+  
+    .right-menu{
+
+        width:35%;
+
+    }
+    .right-menu a{
+
+        padding: 0px 10px;
+
+    }
+    #search{
+
+        width: 90px;
+        margin: 0;
+    }
+    .right-menu label{
+
+        padding-right: 15px;
+    }
+
+    .right .heading1{
+
+        font-size: 5em;
+        margin-top: 1.7em;
+        margin-left: -1.0em;
+    }
+    .right .first-para{
+
+        width: 75%;
+    }
+
+    /* Footer */
+
+    .ft-menu{
+
+        padding: 0 1em;
+    }
+    .ft-menu .logo{
+        width: 21%;
+    }
+    .ft-menu .left-menu{
+
+        width: 70%;
+    }
+    .ft-menu .left-menu ul{
+
+        width: 24%;
+    }
+    .ft-menu .subscribe{
+
+        width: 50%;
+        margin: auto;
+        display: flex; 
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .ft-menu .subscribe form{
+    
+        width: 80%;
+        margin: auto;
+        
+    }
+    .ft-menu .subscribe p{
+
+        width: 80%;
+        margin: auto;
+    }
+
+    .copy{
+
+        padding: 1em 0 0 0;
+    }
+  
+}
+
+/* For iPad --- Slight Adjustment */
+ 
+@media screen and (max-width:900px){
+
+    header{
+
+        padding: 3em 1.5em;
+    }
+    .logo{
+
+        width: 35%;
+
+    }
+    header .left-menu{
+
+        width: 55%;
+
+    }
+    .right-menu{
+
+        width: 25%;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+
+    }
+    .right-menu a{
+        padding: 0 4em 0 0;
+    }
+    .right-menu label{
+        padding: 0 0px;
+    }
+  
+
+    .right .heading1{
+
+        font-size: 4.5em;
+        margin-top: 1.5em;
+        margin-left: -1.0em;
+    }
+    .right .first-para{
+
+        width: 85%;
+    }
+} 
+
+/* For Mobiles */
+
+@media screen and (max-width:768px){
+
+    header{
+
+        padding: 3em 2.5em;
+    }
+    .hamburger{
+
+        display: flex;
+        width: 30%;
+        align-items: center;
+    }
+    .line{
+        background-color: black;
+        height: 1px;
+        width: 22px;
+    }
+    .line::before,.line::after{
+
+        content: '';
+        position: absolute;
+        background-color: black;
+        height: 1px;
+        width: 22px;
+        
+    }
+    .line::before{
+
+        /* margin-top: -7px; */
+        transform: translateY(-7px);
+
+    }
+    .line::after{
+
+        /* margin-top: 7px; */
+        transform: translateY(7px);
+
+    }
+    .logo{
+
+        width: 40%;
+        display: flex;
+        justify-content: center;
+  }
+    .logo a{
+    
+        display: block;
+    }
+ 
+    .left-menu{
+
+        display: none;
+    }
+    .right-menu{
+        
+        display: none;
+    }
+    .mb-left-menu{
+
+        background-color: #EFEEE9;
+        width: 60%;
+        height: 100%;
+        padding: 1rem 1rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        z-index: 1000;
+        display: none;
+
+    }
+    .cross{
+
+        float: right;
+        cursor: pointer;
+    }
+    .diagonal{
+
+        background-color: transparent;
+        height: 3px;
+        width: 24px;
+        
+
+    }
+    .diagonal::before, .diagonal::after{
+    
+        content: '';
+        position: absolute;
+        background-color: black;
+        height: 3px;
+        width: 24px;
+    
+    }  
+     .diagonal::before{
+
+        transform: rotate(45deg) translate(5px,-5px);
+
+    }
+     .diagonal::after{
+
+        transform: rotate(-45deg) translate(5px,5px);
+
+    }
+    .mb-left-nav{
+
+        padding: 2em 1.5em;
+        width: 100%;
+        margin: auto;
+
+    }
+    .mb-left-nav ul{
+
+        width: 70%;
+        margin: auto;
+    }
+
+    .mb-left-nav li{
+
+        border-bottom: 1px solid gray;
+        margin: 2em 0;
+        width: 100%;
+
+    }
+
+    .mb-right-menu{
+
+        display: flex;
+        align-items: center;
+        width: 12%;
+        margin-left: auto;
+        
+    }
+    .mb-right-menu a{
+
+        text-decoration: none;
+        color: black;
+        padding: 0 15px;
+    }
+    .cart{
+        width: 16px;
+        height: 14px;
+        outline: 1px solid black;
+        margin-bottom: 3px;
+        
+    }
+    .cart::before{
+
+        content: '';
+        height: 5px;
+        width: 5px;
+        margin: auto;
+        position: absolute;
+        border: 1px solid black;
+        border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+        border-top-right-radius: 110px; /* 100px of height + 10px of border */
+        margin-top: -7px;
+        margin-left: 4.3px;
+    }
+   
+    .search{
+
+        width: 14px;
+        height: 14px;
+        border: 1px solid black;
+        margin-bottom: 8px;
+        border-radius: 100%;
+    }
+   
+    .search::after{
+    
+        content: '';
+        height: 1px;
+        width: 7px;
+        position: absolute;
+        background-color: black;
+        margin-top: 14px;
+        transform: rotate(49deg);
+        margin-left: 9px;
+    
+    }
+    .hero-bg{
+
+        margin-top: 3em;
+        width: 90%;
+    }
+    .image_container{
+
+        flex-flow: column nowrap;
+        position: relative;
+
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+
+        width: 100%;
+    }
+    .right .heading1{
+    
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: -0.5em;
+        margin: auto;
+        font-size: 7rem;
+    }
+    .right .first-para{
+
+        padding :1em 0;
+        width: 100%;
+        line-height: 1.8em;
+        font-size: 14px;
+        
+
+    }
+    section .pic-info{
+
+        display: none;
+    }
+    .heels{
+
+        width: 100%;
+        flex-flow: column nowrap;        
+        justify-content: space-between;
+        row-gap: 2em;
+        position: relative;
+    }
+    .heel-part-1,.heel-part-2{
+        
+        width: 100%;
+    }
+    .heel-part-1{
+
+        justify-content: flex-start;
+
+    }
+
+    .heel-part-2{
+
+        justify-content: flex-end;
+
+    }
+    
+    
+    .heel-1{
+
+        width: 80%;
+    }
+    .heel-2{
+
+        width: 90%;
+                
+    }
+    .heels-info{
+
+        position: absolute;
+        bottom: -1.2rem;
+        writing-mode:horizontal-tb;
+        left: 4.8rem;
+        width: 60%;
+    }
+    .heels-info p{
+    
+        margin-right: auto;
+    }
+           
+    /* Sofa Section */
+
+    .sofa{
+
+        flex-flow: column nowrap;
+        justify-content: space-between;        
+        row-gap: 2em;
+        position: relative;
+
+    }
+    .sofa-part-1{
+
+        width: 100%;
+        padding: 10px 0;
+    }
+    .sofa-1{
+
+        width: 95%;
+    }
+    .sofa-1 img{
+        width: 100%;
+        opacity: 0.75;
+    }
+    .sofa-part-2{
+
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .sofa-2{
+
+        width: 70%;
+    }
+    .sofa-2 img{
+        width: 100%;
+        opacity: 0.75;
+    }
+    .sofa-info{
+
+        position: absolute;
+        bottom: -3rem;
+        writing-mode:horizontal-tb;
+        left: 4.8rem;
+        width: 60%;
+    }
+    .sofa-info p{
+
+        margin-left: auto;
+    }
+
+            /* THE JOURNAL */
+
+    .journal{
+
+        margin: auto;
+        margin-top: 8em;
+        justify-content: center;
+    }
+    .journal_container{
+
+        flex-flow: column nowrap;
+        width: 100%;        
+        position: relative;
+
+    }
+    .journal-right{
+
+        width: 100%;      
+
+    }
+    .journal-left{
+        width: 100%;
+        align-items: flex-start;     
+
+    }
+    .journal-left .heading1{
+
+        position: absolute;
+        width: 100%;
+        top: -1.5em;
+        left: 0;
+        margin: 0;
+        text-align: center;
+        font-size: 6rem;
+    }
+    .journal-left .first-para{
+        width: 100%;
+        padding: 10px 0;
+        line-height: 1.8em;
+    }
+
+    /* Sale Section */
+
+    .sale{
+
+        flex-flow: column wrap;
+        row-gap: 4em;    
+    }
+    .box-1{
+
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .box-2{
+
+        width: 100%;
+        justify-content: flex-end;
+    }
+
+    /* Footer Section */
+
+    .ft-menu .logo{display: none;}
+    .ft-menu{
+
+        flex-flow: column-reverse nowrap;
+        width:100%;
+        align-items: center;
+    }
+    .ft-menu .left-menu{
+    
+        display: flex;
+        flex-flow: row wrap;
+        width: 70%;
+        
+        justify-content: center;
+        padding: 2em 0 0 0;
+    
+    }
+    .ft-menu .left-menu ul{
+
+        width: 25%;
+    }
+    .ft-menu .subscribe{
+
+
+        width: 90%;
+        flex-flow: column nowrap; 
+        justify-content: center;
+    }
+    .ft-menu .subscribe form{
+
+        display: inline-flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .ft-menu .subscribe p{
+    
+    width: 50%;
+    margin: auto;
+
+    }
+
+   .copy{
+
+    width: 80%;
+    margin: auto;
+   }
+   .copy p{
+
+    font-size: 12px;
+
+   }
+    .copy p span{
+        display: inline;
+    }
+
+
+}
+@media screen and (max-width:600px){
+
+    .logo img{
+
+        width: 130px;
+    }
+    .right .heading1{
+    
+        font-size: 4.6rem;
+    }
+    .hero-bg{
+
+        width: 85%;
+        margin-top: 0.9em;
+    }
+    .mb-right-menu{
+
+        width: 20%;
+    }
+    .mb-right-menu a{
+
+        padding: 0 0 0 20px;
+    }
+    .heels-info{
+
+       
+        left: 2.8rem;
+    }
+    
+    .ft-menu .subscribe p{
+    
+        width: 80%;
+        margin: auto;
+    
+        }
+}
+/* for Mobile -- Slight Adjustment */
+
+@media screen and (max-width:375px){
+
+    header{
+
+        padding: 2em 2em;
+    }
+    .logo img{
+
+        width: 120px;
+    }
+    .hero-bg{
+
+        margin-top: 0.5em;
+    }
+    .mb-right-menu{
+
+        width: 18%;
+    }
+    .right .heading1{
+    
+        font-size: 3.9rem;
+    }
+    .mb-right-menu a{
+
+        padding: 0 0 0 15px;
+    }
+    .heels-info{
+
+       
+        left: 2.3rem;
+    }
+    .sofa-info{
+
+        left: 2.5em;
+    }
+    .journal-left .heading1{
+
+        font-size: 4em;
+    }
+
+      /* Footer Section */
+
+      .ft-menu .logo{display: none;}
+      .ft-menu{
+  
+          flex-flow: column-reverse nowrap;
+          width:100%;
+          align-items: center;
+      }
+      .ft-menu .left-menu{
+      
+          display: flex;
+          flex-flow: row wrap;
+          width: 80%;
+          justify-content: space-between;
+          padding: 2em 0 0 0;
+  
+      
+      }
+      .ft-menu .left-menu ul{
+  
+          width: 35%;
+  
+      }
+      .ft-menu .subscribe{
+  
+          width: 90%;
+          flex-flow: column nowrap; 
+          justify-content: center;
+      }
+      .subscribe input[type='email']
+      {
+  
+          width: 160px;
+          
+      }
+      .subscribe form{
+  
+          display: inline-flex;
+          width: 100%;
+          align-items: center;
+      }
+      .ft-menu .subscribe p{
+    
+        width: 80%;
+        margin: auto;
+    
+        }
+        .box-container {width: 15%;}
+        .box-2 .img-2 {
+            width: 100%;
+            height: min-content;
+        }
+      
+}
+
+@media screen and (max-width:320px){
+
+    header{
+
+        padding: 3em 1.8em;
+    }  
+    .logo img{
+
+        width: 80px;
+    }
+    .hero-bg{
+
+        margin-top: 0em;
+    }
+
+    .right .heading1{
+    
+        font-size: 3rem;
+    }
+    .mb-right-menu {
+        width: 20%;
+    }
+    .heels-info{
+
+       
+        left: 2.0rem;
+    }
+    .sofa-info{
+
+        left: 2em;
+    }
+    .journal-left .heading1{
+
+        font-size: 3.5em;
+    }
+
+    .sale{
+
+        font-size: 14px;
+
+
+    }
+  
+}

@@ -1,0 +1,111 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/stagni-010/Desktop/01. St Agni :: OLIVIA/03. Projects/2021/01. January/09. WOMAN Homepage/1. Working Files/St Agni Home Page WOMAN Concept 01 Folder/Document fonts/AdobeFnt22.lst
+FileLength:2759
+FileModTime:634525441
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AkzidenzGroteskBQ-Light
+FamilyName:Akzidenz-Grotesk BQ
+StyleName:Light
+MenuName:Akzidenz-Grotesk BQ Light
+StyleBits:0
+WeightClass:300
+WidthClass:5
+AngleClass:0
+FullName:Akzidenz-Grotesk BQ Light
+WritingScript:Roman
+OutlineFileName:/Users/stagni-010/Desktop/01. St Agni :: OLIVIA/03. Projects/2021/01. January/09. WOMAN Homepage/1. Working Files/St Agni Home Page WOMAN Concept 01 Folder/Document fonts/AkzidGroBQLig.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:53232
+FileModTime:185397966
+NameArray:0,Mac,4,Akzidenz-Grotesk BQ Light
+NameArray:0,Win,1,Akzidenz-Grotesk BQ Light
+NameArray:0,Win,16,Akzidenz-Grotesk BQ
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AkzidenzGroteskBQ-Reg
+FamilyName:Akzidenz-Grotesk BQ
+StyleName:Regular
+MenuName:Akzidenz-Grotesk BQ
+StyleBits:0
+WeightClass:500
+WidthClass:5
+AngleClass:0
+FullName:Akzidenz-Grotesk BQ Regular
+WritingScript:Roman
+OutlineFileName:/Users/stagni-010/Desktop/01. St Agni :: OLIVIA/03. Projects/2021/01. January/09. WOMAN Homepage/1. Working Files/St Agni Home Page WOMAN Concept 01 Folder/Document fonts/AkzidenzGrotesk-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:31564
+FileModTime:623638140
+NameArray:0,Mac,4,Akzidenz-Grotesk BQ Regular
+NameArray:0,Win,1,Akzidenz-Grotesk BQ
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Arial-BoldMT
+FamilyName:Arial
+StyleName:Bold
+MenuName:Arial
+StyleBits:2
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Arial Bold
+WritingScript:Roman
+OutlineFileName:/Users/stagni-010/Desktop/01. St Agni :: OLIVIA/03. Projects/2021/01. January/09. WOMAN Homepage/1. Working Files/St Agni Home Page WOMAN Concept 01 Folder/Document fonts/Arial Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:750984
+FileModTime:634525441
+NameArray:0,Mac,4,Arial Bold
+NameArray:0,Win,1,Arial
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+MenuName:Minion Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Minion Pro
+WritingScript:Roman
+OutlineFileName:/Users/stagni-010/Desktop/01. St Agni :: OLIVIA/03. Projects/2021/01. January/09. WOMAN Homepage/1. Working Files/St Agni Home Page WOMAN Concept 01 Folder/Document fonts/MinionPro-Regular (1).otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:623638151
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
